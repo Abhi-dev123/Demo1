@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './FeedbackForm.css';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://demo1-eyyg.onrender.com/api';
 
 const FeedbackForm = () => {
   const [formData, setFormData] = useState({
