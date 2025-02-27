@@ -1,0 +1,107 @@
+.admin-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #0072bc;
+  }
+  
+  .admin-header h1 {
+    color: #1a3668;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .refresh-btn {
+    background-color: #0072bc;
+    border: none;
+  }
+  
+  .refresh-btn:hover {
+    background-color: #005a94;
+  }
+  
+  .table-responsive {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .table {
+    margin-bottom: 0;
+  }
+  
+  .table th {
+    background-color: #1a3668;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e6f7ff;
+  }
+  
+  .star-display {
+    display: inline-flex;
+    margin-right: 5px;
+  }
+  
+  .star {
+    font-size: 18px;
+    color: #ddd;
+  }
+  
+  .star.filled {
+    color: #ffb400;
+  }
+  
+  .rating-value {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .comments-cell {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .comments-cell:hover {
+    white-space: normal;
+    overflow: visible;
+  }
+  
+  .export-section {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .export-section code {
+    background-color: #f1f1f1;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: #e31837;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .refresh-btn {
+      margin-top: 15px;
+    }
+  }
